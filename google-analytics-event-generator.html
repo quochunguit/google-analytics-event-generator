@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript and the DOM</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Google Analytics (Gtag.js) event generator">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Hung Truong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="ga-script.js"></script>
+
+  </head>
+  <body>
+        <div class="container">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Event Action</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="gaEventActionInput" name="Gtag.js Event action" placeholder="Enter your event action name">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Event Category</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="gaEventCategoryInput" name="Gtag.js Event category" placeholder="Enter your event category name">
+                        </div>
+                      </div>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Event Label</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="gaEventLabelInput" name="Gtag.js Event label" placeholder="Enter your event label name">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Event Value (optional)</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="gaEventValueInput" name="Gtag.js Event Value" placeholder="Enter your event value">
+                        </div>
+                      </div>
+                 
+                  
+                  <br />
+                  <div class="row">
+                    <input type="submit" value="Generate Gtag.js Event tracking code" id="generateGaEventCodeButton">
+                  </div>
+                  <br />
+
+
+
+
+
+                <pre id="showGeneratedGaCode">
+
+                </pre>
+
+
+              </div>
+  
+  </body>
+</html>
